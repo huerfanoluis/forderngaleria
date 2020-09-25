@@ -1,0 +1,97 @@
+header {
+    background: #50a090;
+}
+header h1{
+    color: azure;
+}
+header .navbar{
+    border-bottom: solid 1px rgb(194, 204, 202);
+    
+}
+header .navbar img{
+    width: 80px;
+}
+header .navbar #menuFordern{
+    justify-content: space-around;
+} 
+#categoriasHeader .row{
+    padding: 2px 2%;
+}
+#servicios{
+    color: #338d6f;
+    text-align: center;
+    background: url(../img/BG-BLO.png);
+}
+#servicios h1{
+    padding: 2%;
+    border-bottom: solid 2px #40c0af;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+#servicios ul{
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#servicios ul li a{
+    color:  #338d6f;
+    border-top: solid 1px rgba(194, 195, 195, 0.582);
+}
+.card{
+    height: 100%;
+    padding: 2%;
+    border:solid 1px rgb(57, 214, 180);    
+}
+.card:hover{
+    transform: translatey(-5px);
+    box-shadow: 2px 4px 2px  rgb(130, 185, 173) ;
+}
+.card .cont-img{
+    justify-content: center;
+}
+.card .card-body{
+    text-align: left;
+}
+.card img{
+    width: 90%;
+    max-height: 200px ; 
+}
+.card h5{
+    
+    border-bottom: solid 1px rgb(57, 214, 180);
+    color: rgb(8, 100, 68) ;
+}
+.card h6{
+    color: rgb(8, 100, 68) ;
+    font-style: italic; 
+}
+.card p{
+    padding: 2px;
+    font-size: 14px; 
+}
+footer{
+    background-color: #408174;
+    color: azure;
+    
+}
+footer .principalFoot{
+    border-bottom: solid 1px rgb(146, 149, 151);
+    padding: 2% 0;
+}
+footer .principalFoot h3{
+    font-weight: bold;
+    border-bottom: solid 1px azure;
+}
+footer .principalFoot .contImgCorp{
+    text-align: right;
+}
+footer .derechos{
+    padding: 2% 0;
+    text-align: center;
+}
+footer a{
+    color: azure;
+}
+footer .contImgCorp img{
+    width: 70%;
+    margin: 2%;
+}
